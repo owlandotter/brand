@@ -1,0 +1,200 @@
+{
+  "frames": {
+    "idle": {
+      "x": 2,
+      "y": 2,
+      "w": 229,
+      "h": 196
+    },
+    "blink_half": {
+      "x": 235,
+      "y": 2,
+      "w": 229,
+      "h": 196
+    },
+    "blink_closed": {
+      "x": 468,
+      "y": 2,
+      "w": 229,
+      "h": 196
+    },
+    "wink_half": {
+      "x": 701,
+      "y": 2,
+      "w": 229,
+      "h": 196
+    },
+    "wink_closed": {
+      "x": 934,
+      "y": 2,
+      "w": 229,
+      "h": 196
+    },
+    "breathe_in": {
+      "x": 2,
+      "y": 202,
+      "w": 229,
+      "h": 196
+    },
+    "breathe_deep": {
+      "x": 235,
+      "y": 202,
+      "w": 229,
+      "h": 196
+    },
+    "wings_spread": {
+      "x": 468,
+      "y": 202,
+      "w": 229,
+      "h": 196
+    },
+    "head_tilt": {
+      "x": 701,
+      "y": 202,
+      "w": 229,
+      "h": 196
+    },
+    "happy": {
+      "x": 934,
+      "y": 202,
+      "w": 229,
+      "h": 196
+    }
+  },
+  "cell": {
+    "w": 229,
+    "h": 196,
+    "pad": 2
+  },
+  "anchor": {
+    "x": 113.5,
+    "y": 195
+  },
+  "animations": {
+    "blink": [
+      {
+        "frame": "idle",
+        "ms": 2600
+      },
+      {
+        "frame": "blink_half",
+        "ms": 60
+      },
+      {
+        "frame": "blink_closed",
+        "ms": 90
+      },
+      {
+        "frame": "blink_half",
+        "ms": 60
+      }
+    ],
+    "wink": [
+      {
+        "frame": "idle",
+        "ms": 1400
+      },
+      {
+        "frame": "wink_half",
+        "ms": 70
+      },
+      {
+        "frame": "wink_closed",
+        "ms": 450
+      },
+      {
+        "frame": "wink_half",
+        "ms": 70
+      }
+    ],
+    "breathe": [
+      {
+        "frame": "idle",
+        "ms": 800
+      },
+      {
+        "frame": "breathe_in",
+        "ms": 200
+      },
+      {
+        "frame": "breathe_deep",
+        "ms": 800
+      },
+      {
+        "frame": "breathe_in",
+        "ms": 200
+      }
+    ],
+    "idle": [
+      {
+        "frame": "idle",
+        "ms": 800
+      },
+      {
+        "frame": "breathe_in",
+        "ms": 200
+      },
+      {
+        "frame": "breathe_deep",
+        "ms": 800
+      },
+      {
+        "frame": "breathe_in",
+        "ms": 200
+      },
+      {
+        "frame": "idle",
+        "ms": 800
+      },
+      {
+        "frame": "breathe_in",
+        "ms": 200
+      },
+      {
+        "frame": "breathe_deep",
+        "ms": 800
+      },
+      {
+        "frame": "breathe_in",
+        "ms": 200
+      },
+      {
+        "frame": "idle",
+        "ms": 300
+      },
+      {
+        "frame": "blink_half",
+        "ms": 60
+      },
+      {
+        "frame": "blink_closed",
+        "ms": 90
+      },
+      {
+        "frame": "blink_half",
+        "ms": 60
+      },
+      {
+        "frame": "idle",
+        "ms": 290
+      },
+      {
+        "frame": "breathe_in",
+        "ms": 200
+      },
+      {
+        "frame": "breathe_deep",
+        "ms": 800
+      },
+      {
+        "frame": "breathe_in",
+        "ms": 200
+      }
+    ]
+  },
+  "image": "owl_sheet.png",
+  "size": {
+    "w": 1165,
+    "h": 400
+  }
+}

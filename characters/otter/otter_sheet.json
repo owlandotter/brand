@@ -1,0 +1,170 @@
+{
+  "frames": {
+    "idle": {
+      "x": 2,
+      "y": 2,
+      "w": 135,
+      "h": 167
+    },
+    "blink_half": {
+      "x": 141,
+      "y": 2,
+      "w": 135,
+      "h": 167
+    },
+    "blink_closed": {
+      "x": 280,
+      "y": 2,
+      "w": 135,
+      "h": 167
+    },
+    "breathe_in": {
+      "x": 419,
+      "y": 2,
+      "w": 135,
+      "h": 167
+    },
+    "breathe_deep": {
+      "x": 2,
+      "y": 173,
+      "w": 135,
+      "h": 167
+    },
+    "typing": {
+      "x": 141,
+      "y": 173,
+      "w": 135,
+      "h": 167
+    },
+    "happy": {
+      "x": 280,
+      "y": 173,
+      "w": 135,
+      "h": 167
+    },
+    "wave": {
+      "x": 419,
+      "y": 173,
+      "w": 135,
+      "h": 167
+    }
+  },
+  "cell": {
+    "w": 135,
+    "h": 167,
+    "pad": 2
+  },
+  "anchor": {
+    "x": 69.5,
+    "y": 166
+  },
+  "animations": {
+    "blink": [
+      {
+        "frame": "idle",
+        "ms": 2600
+      },
+      {
+        "frame": "blink_half",
+        "ms": 60
+      },
+      {
+        "frame": "blink_closed",
+        "ms": 90
+      },
+      {
+        "frame": "blink_half",
+        "ms": 60
+      }
+    ],
+    "breathe": [
+      {
+        "frame": "idle",
+        "ms": 800
+      },
+      {
+        "frame": "breathe_in",
+        "ms": 200
+      },
+      {
+        "frame": "breathe_deep",
+        "ms": 800
+      },
+      {
+        "frame": "breathe_in",
+        "ms": 200
+      }
+    ],
+    "idle": [
+      {
+        "frame": "idle",
+        "ms": 800
+      },
+      {
+        "frame": "breathe_in",
+        "ms": 200
+      },
+      {
+        "frame": "breathe_deep",
+        "ms": 800
+      },
+      {
+        "frame": "breathe_in",
+        "ms": 200
+      },
+      {
+        "frame": "idle",
+        "ms": 800
+      },
+      {
+        "frame": "breathe_in",
+        "ms": 200
+      },
+      {
+        "frame": "breathe_deep",
+        "ms": 800
+      },
+      {
+        "frame": "breathe_in",
+        "ms": 200
+      },
+      {
+        "frame": "idle",
+        "ms": 300
+      },
+      {
+        "frame": "blink_half",
+        "ms": 60
+      },
+      {
+        "frame": "blink_closed",
+        "ms": 90
+      },
+      {
+        "frame": "blink_half",
+        "ms": 60
+      },
+      {
+        "frame": "idle",
+        "ms": 290
+      },
+      {
+        "frame": "breathe_in",
+        "ms": 200
+      },
+      {
+        "frame": "breathe_deep",
+        "ms": 800
+      },
+      {
+        "frame": "breathe_in",
+        "ms": 200
+      }
+    ]
+  },
+  "image": "otter_sheet.png",
+  "size": {
+    "w": 556,
+    "h": 342
+  }
+}
